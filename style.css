@@ -1,0 +1,244 @@
+/****************** Given ******************/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/****************** Mine ******************/
+
+/**************************************************************/
+/****************************************************PHONE*****/
+@media only screen and (max-width: 709px) {
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-mobile.svg");
+    background-repeat: no-repeat;
+  }
+
+  /*--------------- Top Panel ---------------*/
+
+  #top-panel {
+    margin: 26px;
+    padding-top: 5px;
+  }
+
+  #top-panel img {
+    height: 32px;
+  }
+
+  /*--------------- Main Panel ---------------*/
+
+  #main-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 0px 0px;
+    max-height: 549px;
+    width: 100%;
+  }
+
+  #webpageicon-div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 26px;
+  }
+
+  #main-panel img {
+    width: 84%;
+  }
+
+  #right-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+    font-stretch: extra-expanded;
+    letter-spacing: 0.25px;
+    padding: 20px 20px 0px 20px;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.815);
+    margin-top: 0px;
+    letter-spacing: 0.3px;
+    padding: 0px 27px 0px 27px;
+  }
+
+  #button-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+  }
+
+  button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsla(257, 40%, 49%, 0.808);
+    background-color: white;
+    padding: 11px 65px 9px 65px;
+    border-radius: 30px;
+    box-shadow: rgba(22, 22, 22, 0.363) 5px 3px 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    width: 56%;
+  }
+
+  /*--------------- Bottom Panel ---------------*/
+
+  #bottom-panel {
+    display: flex;
+    justify-content: center;
+    margin: 59px;
+  }
+
+  .icon-wrap {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    height: 12px;
+    padding: 7px;
+    border: white 1px solid;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 11px;
+  }
+
+  i {
+    color: white;
+    padding-left: 2px;
+  }
+
+  /*--------------- Footer ---------------*/
+
+  footer {
+    margin: 35px;
+  }
+}
+
+/**************************************************************/
+/********************************************LARGER SCREEN*****/
+@media only screen and (min-width: 709px) {
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+    background-repeat: no-repeat;
+  }
+
+  /*--------------- Top Panel ---------------*/
+
+  #top-panel {
+    margin: 30px;
+    padding-left: 35px;
+    padding-top: 24px;
+  }
+
+  #top-panel img {
+    height: 52px;
+  }
+
+  /*--------------- Main Panel ---------------*/
+
+  #main-panel {
+    display: flex;
+    flex-direction: row;
+    padding: 23px 0px 0px 0px;
+    max-height: 549px;
+  }
+
+  #main-panel img {
+    width: 100%;
+    min-width: 350px;
+  }
+
+  #left-column {
+    margin: 30px;
+    padding-left: 35px;
+  }
+
+  #right-column {
+    margin: 46px 0px 0px 23px;
+    max-width: 520px;
+    min-width: 350px;
+  }
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 18px;
+    font-stretch: extra-expanded;
+    letter-spacing: 0.25px;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.815);
+    margin-top: 0px;
+    letter-spacing: 0.3px;
+  }
+
+  button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsla(257, 40%, 49%, 0.808);
+    background-color: white;
+    padding: 12px 63px 15px 63px;
+    border-radius: 30px;
+    box-shadow: rgba(22, 22, 22, 0.363) 5px 5px 10px;
+    margin-top: 5px;
+  }
+
+  /*--------------- Bottom Panel ---------------*/
+
+  #bottom-panel {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 64px;
+  }
+
+  .icon-wrap {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    padding: 11px;
+    border: white 1px solid;
+    border-radius: 20px;
+    margin: 8px;
+    font-size: 20px;
+  }
+
+  i {
+    color: white;
+  }
+
+  /*--------------- Footer ---------------*/
+
+  footer {
+    margin: 35px;
+  }
+}
